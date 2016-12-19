@@ -56,6 +56,9 @@ Torvalds turned over maintenance on 26 July 2005 to Junio Hamano, a major contri
 Version	Original release date	Latest version	Release date
 Legend:Old versionOlder version, still supportedLatest versionLatest preview version
 
+Design[edit]
+Git's design was inspired by BitKeeper and Monotone.[26][27] Git was originally designed as a low-level version control system engine on top of which others could write front ends, such as Cogito or StGIT.[27] The core Git project has since become a complete version control system that is usable directly.[28] While strongly influenced by BitKeeper, Torvalds deliberately avoided conventional approaches, leading to a unique design.[29]
+
 Adoption[edit]
 /*영문*/
 The Eclipse Foundation reported in its annual community survey that as of May 2014, Git is now the most widely used source code management tool, with 42.9% of professional software developers reporting that they use Git as their primary source control system[59] compared with 36.3% in 2013, 32% in 2012; or for Git responses excluding use of GitHub: 33.3% in 2014, 30.3% in 2013, 27.6% in 2012 and 12.8% in 2011.[60] Open source directory Black Duck Open Hub reports a similar uptake among open source projects.[61] The Stack Overflow developer survey reported in 2015 that 69.3% of developers use Git; 36.9% use Subversion; 12.2% use TFS; and 7.9% use Mercurial.[62]

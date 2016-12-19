@@ -26,7 +26,7 @@ Contents  [hide]
 8	References
 9	External links
 History[edit]
-Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, a proprietary source control management (SCM) system that they had formerly used to maintain the project.[13] The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had reverse-engineered the BitKeeper protocols.[14]
+Git 개발은 2005 년 4 월에 시작되었습니다. Linux 커널의 많은 개발자가 이전에이 프로젝트를 유지 보수하는 데 사용했던 독점적 소스 제어 관리 (SCM) 시스템 인 BitKeeper에 대한 액세스를 포기한 후에였습니다. 비트 키퍼 (BitKeeper)의 저작권자 인 래리 맥보이 (Larry McVoy)는 앤드류 트리 젤 (Andrew Tridgell)이 비트 키퍼 (BitKeeper) 프로토콜을 리버스 엔지니어링 한 것으로 주장하면서이 제품의 무료 사용을 철회했다.
 
 Linus Torvalds wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, especially for performance. Torvalds cited an example of a source-control management system needing 30 seconds to apply a patch and update all associated metadata, and noted that this would not scale to the needs of Linux kernel development, where syncing with fellow maintainers could require 250 such actions at once. For his design criteria, he specified that patching should take no more than three seconds,[8] and added three more points:
 

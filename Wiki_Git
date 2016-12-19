@@ -52,7 +52,10 @@ Version	Original release date	Latest version	Release date
 Legend:Old versionOlder version, still supportedLatest versionLatest preview version
 
 Design[edit]
+/*영문*/
 Git's design was inspired by BitKeeper and Monotone.[26][27] Git was originally designed as a low-level version control system engine on top of which others could write front ends, such as Cogito or StGIT.[27] The core Git project has since become a complete version control system that is usable directly.[28] While strongly influenced by BitKeeper, Torvalds deliberately avoided conventional approaches, leading to a unique design.[29]
+/*한글*/
+Git의 디자인은 BitKeeper와 Monotone에서 영감을 얻었습니다. [26] [27] Git은 원래 Cogito 나 StGIT와 같은 프런트 엔드를 작성할 수있는 저급 버전 제어 시스템 엔진으로 설계되었습니다. 핵심 Git 프로젝트는 이후 직접 사용 가능한 완벽한 버전 제어 시스템이되었습니다. 비트 키퍼 (BitKeeper)의 영향을 크게 받았지만 토발즈 (Torvalds)는 의도적으로 기존 접근법을 피하면서 독특한 디자인으로 이끌었다.
 
 Adoption[edit]
 /*영문*/

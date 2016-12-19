@@ -1,3 +1,6 @@
+
+---------------------------------------
+
 Reference Site
 https://en.wikipedia.org/wiki/Git
 Complite document
@@ -35,7 +38,7 @@ Contents  [hide]
 8	References
 9	External links
 History[edit]
-Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, a proprietary source control management (SCM) system that they had formerly used to maintain the project.[13] The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had reverse-engineered the BitKeeper protocols.[14]
+Git 개발은 2005 년 4 월에 시작되었습니다. Linux 커널의 많은 개발자가 이전에이 프로젝트를 유지 보수하는 데 사용했던 독점적 소스 제어 관리 (SCM) 시스템 인 BitKeeper에 대한 액세스를 포기한 후에였습니다. 비트 키퍼 (BitKeeper)의 저작권자 인 래리 맥보이 (Larry McVoy)는 앤드류 트리 젤 (Andrew Tridgell)이 비트 키퍼 (BitKeeper) 프로토콜을 리버스 엔지니어링 한 것으로 주장하면서이 제품의 무료 사용을 철회했다.
 
 Linus Torvalds wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, especially for performance. Torvalds cited an example of a source-control management system needing 30 seconds to apply a patch and update all associated metadata, and noted that this would not scale to the needs of Linux kernel development, where syncing with fellow maintainers could require 250 such actions at once. For his design criteria, he specified that patching should take no more than three seconds,[8] and added three more points:
 
@@ -189,4 +192,111 @@ Jump up ^ "Initial revision of "git", the information manager from hell". Github
 73.^ Jump up to: a b c Blake Burkhart; et al. (5 October 2015). "Re: CVE Request: git". Retrieved 26 December 2015.
 74.Jump up ^ "hash - How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. September 22, 2014.
 75.Jump up ^ "Why does Git use a cryptographic hash function?". Stack Overflow. March 1, 2015.
+<<<<<<< HEAD
 >>>>>>> origin
+=======
+
+External links[edit]
+
+ Wikimedia Commons has media related to Git. 
+
+ Wikibooks has a book on the topic of: Git 
+Official website
+Git at Open Hub
+
+[hide]
+Version control software
+ 
+Years, where available, indicate the date of first stable release. Systems with names in italics are no longer maintained or have planned end-of-life dates.
+ 
+Local only
+
+Free/open-source
+ 
+RCS (1982) · 
+ SCCS (1972)
+  
+Proprietary
+ 
+PVCS (1985) · 
+ QVCS (1991)
+  
+Revision controlled project visualization-2010-24-02.svg
+ 
+Client–server
+
+Free/open-source
+ 
+CVS (1986, 1990 in C) · 
+ CVSNT (1998) · 
+ QVCS Enterprise (1998) · 
+ Subversion (2000)
+  
+Proprietary
+AccuRev SCM (2002) · 
+ClearCase (1992) · 
+CMVC (1994) · 
+Dimensions CM (1980s) · 
+DSEE (1984) · 
+Endevor (1980s) · 
+Integrity (2001) · 
+Panvalet (1970s) · 
+Perforce Helix (1995) · 
+Software Change Manager (1970s) · 
+StarTeam (1995) · 
+Surround SCM (2002) · 
+Synergy (1990) · 
+Team Concert (2008) · 
+Team Foundation Server (2005) · 
+Visual Studio Team Services (2014) · 
+Vault (2003) · 
+Visual SourceSafe (1994)
+  
+Distributed
+
+Free/open-source
+ArX (2003) · 
+BitKeeper (1998) · 
+Codeville (2005) · 
+Darcs (2002) · 
+DCVS (2002) · 
+Fossil (2007) · 
+Git (2005) · 
+GNU arch (2001) · 
+GNU Bazaar (2005) · 
+Mercurial (2005) · 
+Monotone (2003) · 
+SVK (2003) · 
+Veracity (2010)
+
+Proprietary
+ 
+TeamWare (1990s?) · 
+ Code Co-op (1997) · 
+ Plastic SCM (2006) · 
+ Team Foundation Server (2013) · 
+ Visual Studio Team Services (2014)
+  
+Concepts
+
+Branch · 
+ Fork · 
+ Changeset · 
+ Commit  (Gated commit)
+   · 
+ Interleaved deltas · 
+ Delta compression · 
+ Data comparison · 
+ Merge · 
+ Repository · 
+ Tag · 
+ Trunk
+  
+Category · 
+ Comparison · 
+ List
+
+Authority control
+
+GND: 7687494-1
+>>>>>>> 7f9fbf3d94d30d8d02fdb00f8e306628fbd856a4

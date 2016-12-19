@@ -3,7 +3,7 @@
 
 Reference Site
 https://en.wikipedia.org/wiki/Git
-Complite document
+Do Complite wiki's document
 
 ---------------------------------------
 
@@ -13,30 +13,13 @@ Git was created by Linus Torvalds in 2005 for development of the Linux kernel, w
 
 As with most other distributed version control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version tracking abilities, independent of network access or a central server.[12]
 
-<<<<<<< HEAD
 Like the Linux kernel, Git is 
-
-
-
 
 History
 Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, a proprietary source control management (SCM) system that they had formerly used to maintain the project.[13] The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had reverse-engineered the BitKeeper protocols.
-=======
+
 Like the Linux kernel, Git is free software distributed under the terms of the GNU General Public License version 2.
 
-Contents  [hide] 
-1	History
-2	Design
-2.1	Characteristics
-2.2	Data structures
-2.3	References
-3	Implementations
-4	Git server
-5	Adoption
-6	Security
-7	See also
-8	References
-9	External links
 History[edit]
 Git 개발은 2005 년 4 월에 시작되었습니다. Linux 커널의 많은 개발자가 이전에이 프로젝트를 유지 보수하는 데 사용했던 독점적 소스 제어 관리 (SCM) 시스템 인 BitKeeper에 대한 액세스를 포기한 후에였습니다. 비트 키퍼 (BitKeeper)의 저작권자 인 래리 맥보이 (Larry McVoy)는 앤드류 트리 젤 (Andrew Tridgell)이 비트 키퍼 (BitKeeper) 프로토콜을 리버스 엔지니어링 한 것으로 주장하면서이 제품의 무료 사용을 철회했다.
 
@@ -90,9 +73,6 @@ Version	Original release date	Latest version	Release date
 2.10	2016-09-02	2.10.2	2016-10-28
 2.11	2016-11-29	2.11.0	2016-11-29
 Legend:Old versionOlder version, still supportedLatest versionLatest preview version
-<<<<<<< HEAD
->>>>>>> 23a9f0491360c4098278a70c8574c6c70f9a8e68
-=======
 
 Adoption[edit]
 /*영문*/
@@ -192,9 +172,6 @@ Jump up ^ "Initial revision of "git", the information manager from hell". Github
 73.^ Jump up to: a b c Blake Burkhart; et al. (5 October 2015). "Re: CVE Request: git". Retrieved 26 December 2015.
 74.Jump up ^ "hash - How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. September 22, 2014.
 75.Jump up ^ "Why does Git use a cryptographic hash function?". Stack Overflow. March 1, 2015.
-<<<<<<< HEAD
->>>>>>> origin
-=======
 
 External links[edit]
 
@@ -299,4 +276,3 @@ Category ·
 Authority control
 
 GND: 7687494-1
->>>>>>> 7f9fbf3d94d30d8d02fdb00f8e306628fbd856a4

@@ -79,6 +79,14 @@ Version	Original release date	Latest version	Release date
 2.11	2016-11-29	2.11.0	2016-11-29
 Legend:Old versionOlder version, still supportedLatest versionLatest preview version
 
+Adoption[edit]
+/*영문*/
+The Eclipse Foundation reported in its annual community survey that as of May 2014, Git is now the most widely used source code management tool, with 42.9% of professional software developers reporting that they use Git as their primary source control system[59] compared with 36.3% in 2013, 32% in 2012; or for Git responses excluding use of GitHub: 33.3% in 2014, 30.3% in 2013, 27.6% in 2012 and 12.8% in 2011.[60] Open source directory Black Duck Open Hub reports a similar uptake among open source projects.[61] The Stack Overflow developer survey reported in 2015 that 69.3% of developers use Git; 36.9% use Subversion; 12.2% use TFS; and 7.9% use Mercurial.[62]
+The UK IT jobs website itjobswatch.co.uk reports that as of late September 2016, 29.27% of UK permanent software development job openings have cited Git,[63] ahead of 12.17% for Microsoft Team Foundation Server,[64] 10.60% for Subversion,[65] 1.30% for Mercurial,[66] and 0.48% for Visual SourceSafe.[67]
+/*한글*/
+Eclipse Foundation은 연례 커뮤니티 조사에서 2014 년 5 월 현재 Git이 가장 널리 사용되는 소스 코드 관리 도구이며 42.9 %의 전문 소프트웨어 개발자가 Git을 기본 소스 제어 시스템으로 사용한다고보고했습니다 [59] 2013 년 36.3 %, 2012 년 32 %; GitHub 사용을 제외한 Git 응답 : 2014 년 33.3 %, 2013 년 30.3 %, 2012 년 27.6 %, 2011 년 12.8 % 오픈 소스 디렉토리 블랙 덕 오픈 허브 (Black Duck Open Hub)는 오픈 소스 프로젝트들 사이에서 유사한 취향을보고합니다. Stack Overflow 개발자 설문 조사에 따르면 2015 년에 69.3 %의 개발자가 Git을 사용한다고보고되었습니다. 36.9 %는 Subversion을 사용합니다. 12.2 %는 TFS를 사용합니다. 7.9 %는 Mercurial을 사용한다.
+영국의 IT 취업 웹 사이트 itjobswatch.co.uk는 2016 년 9 월 말 현재 영국 영원한 소프트웨어 개발 일자리의 29.27 %가 MS Team Foundation Server의 12.17 %보다 앞서 [63], [64]는 10.60 % Subversion, [65] Mercurial의 경우 1.30 %, Visual SourceSafe의 경우 0.48 %입니다. [67]
+
 Security[edit]
 
 Git does not provide access control mechanisms, but was designed for operation with other tools that specialize in access control.[68]

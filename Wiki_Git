@@ -2,7 +2,8 @@
 
 Reference Site
 https://en.wikipedia.org/wiki/Git
-Complite document
+Do Complite wiki's document
+
 ---------------------------------------
 
 
@@ -12,21 +13,13 @@ Git was created by Linus Torvalds in 2005 for development of the Linux kernel, w
 
 As with most other distributed version control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version tracking abilities, independent of network access or a central server.[12]
 
+Like the Linux kernel, Git is 
+
+History
+Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, a proprietary source control management (SCM) system that they had formerly used to maintain the project.[13] The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had reverse-engineered the BitKeeper protocols.
+
 Like the Linux kernel, Git is free software distributed under the terms of the GNU General Public License version 2.
 
-Contents  [hide] 
-1	History
-2	Design
-2.1	Characteristics
-2.2	Data structures
-2.3	References
-3	Implementations
-4	Git server
-5	Adoption
-6	Security
-7	See also
-8	References
-9	External links
 History[edit]
 Git 개발은 2005 년 4 월에 시작되었습니다. Linux 커널의 많은 개발자가 이전에이 프로젝트를 유지 보수하는 데 사용했던 독점적 소스 제어 관리 (SCM) 시스템 인 BitKeeper에 대한 액세스를 포기한 후에였습니다. 비트 키퍼 (BitKeeper)의 저작권자 인 래리 맥보이 (Larry McVoy)는 앤드류 트리 젤 (Andrew Tridgell)이 비트 키퍼 (BitKeeper) 프로토콜을 리버스 엔지니어링 한 것으로 주장하면서이 제품의 무료 사용을 철회했다.
 
@@ -99,86 +92,6 @@ Git version 2.6.1, released on 29 September 2015, contained a patch for a securi
 
 Git uses SHA-1 hashes internally. Linus Torvalds has responded that the hash was mostly to guard against accidental corruption, and the security a cryptographically secure hash gives was just an accidental side effect, with the main security being signing elsewhere.[74][75]
 
-See also[edit]
-
-
-References[edit]
-
-Jump up ^ "Initial revision of "git", the information manager from hell". Github. 8 April 2005. Retrieved 20 December 2015.
-2.Jump up ^ "Commit Graph". Github. 8 June 2016. Retrieved 19 December 2015.
-3.Jump up ^ "Git Source Code Mirror". Retrieved 2015-11-04.
-4.Jump up ^ "Git's GPL license at github.com". github.com. 18 January 2010. Retrieved 12 October 2014.
-5.Jump up ^ "Git's LGPL license at github.com". github.com. 20 May 2011. Retrieved 12 October 2014.
-6.Jump up ^ "Tech Talk: Linus Torvalds on git (at 00:01:30)". YouTube. Retrieved 2014-07-20.
-7.Jump up ^ Scopatz, Anthony; Huff, Kathryn D. (2015). Effective Computation in Physics. O'Reilly Media, Inc. p. 351. ISBN 9781491901595. Retrieved 20 April 2016.
-8.^ Jump up to: a b Torvalds, Linus (2005-04-07). "Re: Kernel SCM saga..". linux-kernel (Mailing list). "So I'm writing some scripts to try to track things a whole lot faster."
-9.^ Jump up to: a b Torvalds, Linus (2007-06-10). "Re: fatal: serious inflate inconsistency". git (Mailing list).
-10.^ Jump up to: a b c d e Linus Torvalds (2007-05-03). Google tech talk: Linus Torvalds on git. Event occurs at 02:30. Retrieved 2007-05-16.
-11.Jump up ^ "A Short History of Git". Pro Git (2nd ed.). Apress. 2014. Retrieved 26 December 2015.
-12.Jump up ^ Chacon, Scott (24 December 2014). Pro Git (2nd ed.). New York, NY: Apress. pp. 29–30. ISBN 978-1-4842-0077-3.
-13.Jump up ^ BitKeeper and Linux: The end of the road? |linux.com
-14.Jump up ^ McAllister, Neil (2005-05-02). "Linus Torvalds' BitKeeper blunder". InfoWorld. IDG. Retrieved 2015-09-08.
-15.Jump up ^ "GitFaq: Why the 'Git' name?". Git.or.cz. Retrieved 2012-07-14.
-16.Jump up ^ "After controversy, Torvalds begins work on 'git'". PC World. 2012-07-14. "Torvalds seemed aware that his decision to drop BitKeeper would also be controversial. When asked why he called the new software, "git", British slang meaning "a rotten person", he said. "I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git""
-17.Jump up ^ "git(1) Manual Page". Retrieved 2012-07-21.
-18.Jump up ^ "Initial revision of "git", the information manager from hell · git/git@e83c516". GitHub. Retrieved 2016-01-21.
-19.^ Jump up to: a b Torvalds, Linus (2007-02-27). "Re: Trivia: When did git self-host?". git (Mailing list).
-20.Jump up ^ Torvalds, Linus (2005-04-06). "Kernel SCM saga..". linux-kernel (Mailing list).
-21.Jump up ^ Torvalds, Linus (2005-04-17). "First ever real kernel git merge!". git (Mailing list).
-22.Jump up ^ Mackall, Matt (2005-04-29). "Mercurial 0.4b vs git patchbomb benchmark". git (Mailing list).
-23.Jump up ^ Torvalds, Linus (2005-06-17). "Linux 2.6.12". git-commits-head (Mailing list).
-24.Jump up ^ Torvalds, Linus (2005-07-27). "Meet the new maintainer...". git (Mailing list).
-25.Jump up ^ Hamano, Junio C. (2005-12-21). "Announce: Git 1.0.0". git (Mailing list).
-26.Jump up ^ Torvalds, Linus (2006-05-05). "Re: [ANNOUNCE] Git wiki". linux-kernel (Mailing list). "Some historical background" on Git's predecessors
-27.^ Jump up to: a b Torvalds, Linus (2005-04-08). "Re: Kernel SCM saga". linux-kernel (Mailing list). Retrieved 2008-02-20.
-28.^ Jump up to: a b Torvalds, Linus (2006-03-23). "Re: Errors GITtifying GCC and Binutils". git (Mailing list).
-29.Jump up ^ Torvalds, Linus (2006-10-20). "Re: VCS comparison table". git (Mailing list). A discussion of Git vs. BitKeeper
-30.Jump up ^ Git 2.8.0 Release Notes "Documentation/RelNotes/2.8.0.txt". 2016-03-29.
-31.Jump up ^ Torvalds, Linus (2006-10-19). "Re: VCS comparison table". git (Mailing list).
-32.Jump up ^ Jst's Blog on Mozillazine "bzr/hg/git performance". Archived from the original on 29 May 2010. Retrieved 12 February 2015.
-33.Jump up ^ Dreier, Roland (2006-11-13). "Oh what a relief it is"., observing that "git log" is 100x faster than "svn log" because the latter must contact a remote server.
-34.Jump up ^ "Trust". Git Concepts. Git User's Manual. 2006-10-18.
-35.Jump up ^ Torvalds, Linus. "Re: VCS comparison table". git (Mailing list). Retrieved 2009-04-10., describing Git's script-oriented design
-36.Jump up ^ iabervon (2005-12-22). "Git rocks!"., praising Git's scriptability
-37.Jump up ^ "Git User's Manual". 2007-08-05.
-38.Jump up ^ Torvalds, Linus (2005-04-10). "Re: more git updates..". linux-kernel (Mailing list).
-39.Jump up ^ Haible, Bruno (2007-02-11). "how to speed up "git log"?". git (Mailing list).
-40.Jump up ^ Torvalds, Linus (2006-03-01). "Re: impure renames / history tracking". git (Mailing list).
-41.Jump up ^ Hamano, Junio C. (2006-03-24). "Re: Errors GITtifying GCC and Binutils". git (Mailing list).
-42.Jump up ^ Hamano, Junio C. (2006-03-23). "Re: Errors GITtifying GCC and Binutils". git (Mailing list).
-43.Jump up ^ Torvalds, Linus (2006-11-28). "Re: git and bzr". git (Mailing list)., on using git-blame to show code moved between source files
-44.Jump up ^ Torvalds, Linus (2007-07-18). "git-merge(1)".
-45.Jump up ^ Torvalds, Linus (2007-07-18). "CrissCrossMerge".
-46.Jump up ^ Torvalds, Linus (2005-04-10). "Re: more git updates...". linux-kernel (Mailing list).
-47.Jump up ^ "1.4 Getting Started – Installing Git". git-scm.com. Retrieved 2013-11-01.
-48.Jump up ^ Gerrit Code Review – Project Configuration File Format
-49.Jump up ^ "downloads". Retrieved 14 May 2012.
-50.Jump up ^ "msysGit". Retrieved 20 Sep 2016.
-51.Jump up ^ "JGit". Retrieved 24 Aug 2012.
-52.Jump up ^ "Dulwich". Retrieved 27 Aug 2012.
-53.Jump up ^ "libgit2". Retrieved 24 Aug 2012.
-54.Jump up ^ "rugged". Retrieved 24 Aug 2012.
-55.Jump up ^ "pygit2". Retrieved 24 Aug 2012.
-56.Jump up ^ "hlibgit2". Retrieved 30 Apr 2013.
-57.Jump up ^ https://github.com/creationix/js-git "js-git: a JavaScript implementation of Git." Retrieved 13 August 2013.
-58.Jump up ^ 4.4 Git on the Server – Setting Up the Server, Pro Git.
-59.Jump up ^ "Eclipse Community Survey 2014 results | Ian Skerrett". Ianskerrett.wordpress.com. 2014-06-23. Retrieved 2014-06-23.
-60.Jump up ^ "Results of Eclipse Community Survey 2012".
-61.Jump up ^ "Compare Repositories – Open Hub".
-62.Jump up ^ "Stack Overflow Developer Survey 2015". Stack Overflow. Retrieved 1 October 2016.
-63.Jump up ^ "Git (software) Jobs, Average Salary for Git Distributed Version Control System Skills". Itjobswatch.co.uk. Retrieved 2016-09-30.
-64.Jump up ^ "Team Foundation Server Jobs, Average Salary for Microsoft Team Foundation Server (TFS) Skills". Itjobswatch.co.uk. Retrieved 2016-09-30.
-65.Jump up ^ "Subversion Jobs, Average Salary for Apache Subversion (SVN) Skills". Itjobswatch.co.uk. Retrieved 2016-09-30.
-66.Jump up ^ "Mercurial Jobs, Average Salary for Mercurial Skills". Itjobswatch.co.uk. Retrieved 2016-09-30.
-67.Jump up ^ "VSS/SourceSafe Jobs, Average Salary for Microsoft Visual SourceSafe (VSS) Skills". Itjobswatch.co.uk. Retrieved 2016-09-30.
-68.Jump up ^ https://wincent.com/wiki/git_repository_access_control
-69.Jump up ^ Pettersen, Tim (20 December 2014). "Securing your Git server against CVE-2014-9390". Retrieved 22 December 2014.
-70.Jump up ^ Hamano, J. C. (18 December 2014). "[Announce] Git v2.2.1 (and updates to older maintenance tracks)". Newsgroup: gmane.linux.kernel. Retrieved 22 December 2014.[dead link]
-71.Jump up ^ "CVE-2015-7545". 15 December 2015. Retrieved 26 December 2015.
-72.Jump up ^ "Git 2.6.1". 29 September 2015. Retrieved 26 December 2015.
-73.^ Jump up to: a b c Blake Burkhart; et al. (5 October 2015). "Re: CVE Request: git". Retrieved 26 December 2015.
-74.Jump up ^ "hash - How safe are signed git tags? Only as safe as SHA-1 or somehow safer?". Information Security Stack Exchange. September 22, 2014.
-75.Jump up ^ "Why does Git use a cryptographic hash function?". Stack Overflow. March 1, 2015.
 
 External links[edit]
 

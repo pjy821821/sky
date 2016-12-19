@@ -54,29 +54,6 @@ The development of Git began on 3 April 2005.[19] Torvalds announced the project
 Torvalds turned over maintenance on 26 July 2005 to Junio Hamano, a major contributor to the project.[24] Hamano was responsible for the 1.0 release on 21 December 2005, and remains the project's maintainer.[25]
 
 Version	Original release date	Latest version	Release date
-0.99	2005-07-11	0.99.9n	2005-12-15
-1.0	2005-12-21	1.0.13	2006-01-27
-1.1	2006-01-08	1.1.6	2006-01-30
-1.2	2006-02-12	1.2.6	2006-04-08
-1.3	2006-04-18	1.3.3	2006-05-16
-1.4	2006-06-10	1.4.4.5	2008-07-16
-1.5	2007-02-14	1.5.6.6	2008-12-17
-1.6	2008-08-17	1.6.6.3	2010-12-15
-1.7	2010-02-13	1.7.12.4	2012-10-17
-1.8	2012-10-21	1.8.5.6	2014-12-17
-1.9	2014-02-14	1.9.5	2014-12-17
-2.0	2014-05-28	2.0.5	2014-12-17
-2.1	2014-08-16	2.1.4	2014-12-17
-2.2	2014-11-26	2.2.3	2015-09-04
-2.3	2015-02-05	2.3.10	2015-09-29
-2.4	2015-04-30	2.4.11	2016-03-17
-2.5	2015-07-27	2.5.5	2016-03-17
-2.6	2015-09-28	2.6.6	2016-03-17
-2.7	2015-10-04	2.7.4	2016-03-17
-2.8	2016-03-28	2.8.4	2016-06-06
-2.9	2016-06-13	2.9.3	2016-08-12
-2.10	2016-09-02	2.10.2	2016-10-28
-2.11	2016-11-29	2.11.0	2016-11-29
 Legend:Old versionOlder version, still supportedLatest versionLatest preview version
 
 Adoption[edit]

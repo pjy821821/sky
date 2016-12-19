@@ -1,2 +1,2 @@
 # sky
-Github 팀 과제입니다.
+Github 팀 과제입니다..

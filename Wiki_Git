@@ -1,0 +1,13 @@
+Reference Site
+https://en.wikipedia.org/wiki/Git
+Complite document
+
+---------------------------------------
+
+Git (/ɡɪt/[6]) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for software development,[7] but it can be used to keep track of changes in any files. As a distributed revision control system it is aimed at speed,[8] data integrity,[9] and support for distributed, non-linear workflows.[10]
+
+Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.[11] Its current maintainer is Junio Hamano.
+
+As with most other distributed version control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version tracking abilities, independent of network access or a central server.[12]
+
+Like the Linux kernel, Git is 
